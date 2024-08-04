@@ -1,29 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <img src="image/Bett.jpg" alt="Profile Photo" class="profile-photo">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-        </ul>
-    </nav>
-    <section id="education" class="section-education">
-        <h2>Education</h2>
-        <!-- Education details here -->
-    </section>
-    <section id="experience" class="section-experience">
-        <h2>Experience</h2>
-        <!-- Experience details here -->
-    </section>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    position: relative;
+    margin-top: 10px; /* Adjust margin if needed */
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-education {
+    background-image: url('image/aws2.PNG'); /* Path to your watermark image for education */
+}
+
+.section-experience {
+    background-image: url('image/Capture.PNG'); /* Path to your watermark image for experience */
+}
