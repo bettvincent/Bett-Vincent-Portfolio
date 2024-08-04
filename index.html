@@ -13,38 +13,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="top-area">
-        <nav class="navbar bootsnav no-background">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Vincent</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li><a href="#welcome-hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skill">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#profiles">Profiles</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#clients">Clients</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <button class="navbar-toggle">
-                    <i class="fa fa-bars"></i>
-                </button>
-            </div>
-        </nav>
+    <header>
+        <img src="images/profile-photo.jpg" alt="Vincent Bett" class="profile-photo">
+        <h1>Vincent Bett</h1>
+        <p>bettvince01@gmail.com | (+254) 0722901660 | Nairobi, Kenya</p>
     </header>
 
-    <!-- Welcome Hero -->
-    <section class="welcome-hero" id="welcome-hero">
-        <div class="header-text">
-            <h2>Welcome to Vincent's <span>Portfolio</span></h2>
-            <p>Your gateway to my world of creativity and innovation</p>
-            <a href="#contact">Contact Me</a>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="summary" class="section-summary">
+        <h2>Summary</h2>
+        <p>
+            As a versatile professional with expertise in banking and finance, AWS cloud solutions, and data science, 
+            I bring a holistic approach to solving complex business challenges. With a strong foundation in financial 
+            analysis and comprehensive planning, I develop reliable financial models and facilitate data-driven 
+            decision-making. As an AWS Cloud Practitioner, I manage scalable cloud solutions with high performance 
+            and efficiency. My data science skills enable me to use advanced analytics to identify patterns and foster 
+            innovation, merging financial strategy with cutting-edge technology to create solutions that enhance 
+            technical agility and financial performance.
+        </p>
     </section>
 
     <!-- About -->
@@ -151,15 +148,28 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2>Contact <span>Me</span></h2>
-            <div class="single-contact-content">
-                <h3>Contact Information</h3>
-                <p>Phone: 123-456-7890</p>
-                <p>Email: example@example.com</p>
-            </div>
+    <section id="projects" class="section-projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <a href="link_to_project_1">
+                <img src="images/project-1-image.jpg" alt="Project 1 Image">
+            </a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <a href="link_to_project_2">
+                <img src="images/project-2-image.jpg" alt="Project 2 Image">
+            </a>
+        </div>
+    </section>
+
+    <section id="additional-images" class="section-images">
+        <h2>Additional Images</h2>
+        <div class="image-gallery">
+            <img src="image/Capture.PNG" alt="Experience Image">
+            <img src="image/aws.PNG" alt="AWS Image">
+            <img src="image/aws2.PNG" alt="Additional AWS Image">
         </div>
     </section>
 
