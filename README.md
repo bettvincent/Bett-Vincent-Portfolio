@@ -25,7 +25,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/vincent-html-template.git
+git clone https://github.com/bettvincent/vincent-html-template.git
 Navigate to the Project Directory:
 
 bash
@@ -66,4 +66,4 @@ Contact
 For any questions or support, please reach out to:
 
 Email: Vincentbett966@gmail.com
-Website: yourwebsite.com
+Website: [yourwebsite.com](https://vincentbett.netlify.app/)
